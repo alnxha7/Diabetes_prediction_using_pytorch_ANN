@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Meta and Style Information -->
+    <meta charset="utf-8">
+    <title>Diabetes Prediction Result</title>
+    <style>
+        /* Define styles for the prediction result */
+        h1 {
+            background-color: #FF0000;  /* Red background */
+            color: #FFFFFF;  /* White text for contrast */
+            padding: 10px;  /* Padding for aesthetics */
+            text-align: center;  /* Center the text */
+            border-radius: 5px;  /* Rounded corners */
+        }
+
+        /* Style for the back button */
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;  /* Space between text and button */
+            padding: 10px 20px;
+            background-color: #007bff;  /* Bootstrap primary color */
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;  /* Remove underline from link */
+        }
+        
+        .back-button:hover {
+            background-color: #0056b3;  /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Prediction Result -->
+    <h1>{{ prediction_text }}</h1>
+
+    <!-- Back Button to Return to the Diabetes Form -->
+    <a class="back-button" href="{{ url_for('home') }}">Check Another</a>
+
+</body>
+</html>
