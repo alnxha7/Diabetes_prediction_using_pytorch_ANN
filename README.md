@@ -4,10 +4,10 @@ Early detection and management are crucial to reduce the burden on healthcare sy
 Traditional diagnostic methods rely on clinical tests, but there is a growing need for data-driven approaches that can predict diabetes risk based on patient data. 
 The objective is to build a robust model that can accurately predict diabetes using a set of clinical and demographic features.
 
-## Project target
+### Project target
 To develop a POC using Flask, HTML and CSS for predicting whether a person is suffering from Diabetes or not.
 
-# Data collection
+### Data collection
 About the Data set:
 This is a Deep learning project where we will predict whether a person is suffering from Diabetes or not. The dataset was downloaded from Kaggle.
 https://www.kaggle.com/datasets/mathchi/diabetes-data-set
